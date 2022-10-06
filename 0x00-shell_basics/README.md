@@ -12,4 +12,5 @@ cd .. changes the current working directory to the previous one.
 ls -la .. List all files (even ones with names beginning with a period character, which are normally hidden) in the parent of the working directory in long format
 type file 'List the type of file.'
 ln -s /bin/ls __ls__ creating a symbolic link
-cp -u *.html ../ 
+cp -u *.html ../
+mv [A-Z]* /tmp/u 
