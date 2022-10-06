@@ -11,4 +11,4 @@ Task 7; chmod a+x hello gives permissions to read and execute the file hello the
 Task 8; chmod 007 hello James Bond
 Task 9; chmod 753 hello John Doe
 Task 10; chmod reference=olleh hello mirror permissions
-Task 11; chmod ug+X * makes executable for users and groups all subdirectories within the working directory.  
+Task 11; chmod ugo+X * makes executable for user and group all subdirectories in the working directory 
