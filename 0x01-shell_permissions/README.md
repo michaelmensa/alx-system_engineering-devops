@@ -14,3 +14,4 @@ Task 10; chmod reference=olleh hello mirror permissions
 Task 11; chmod ugo+X * makes executable to the user, group and others all subdirectories in the working directory.
 Task 12; mkdir -m 751 my_dir creates a new directory my_dir with 751 permissions
 Task 13; chgrp school hello
+Task 14; chown [option] [OPTION:[GROUPNAME]] file
