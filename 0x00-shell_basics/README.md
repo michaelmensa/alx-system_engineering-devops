@@ -3,4 +3,4 @@ ls lists the contents of the current working directory
 cd .. changes the current working directory to the user's home directory
 ls -l list the contents of the current working directory in a long format
 ls -la list the contents as well as the hidden contents in the working directory in a long format
-
+ls -na list files in long format; with user name and ID numerically and hidden files.
