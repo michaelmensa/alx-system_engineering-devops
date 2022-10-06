@@ -10,4 +10,5 @@ Task 6; chmod octal file_1 multiple permissions
 Task 7; chmod a+x hello gives permissions to read and execute the file hello the owner, group and the world
 Task 8; chmod 007 hello James Bond
 Task 9; chmod 753 hello John Doe
-Task 10; chmod reference=olleh hello mirror permissions 
+Task 10; chmod reference=olleh hello mirror permissions
+Task 11; chmod u+X * change all subdirectories of the working directory to executable. 
