@@ -15,4 +15,5 @@ ln -s /bin/ls __ls__ creating a symbolic link
 cp -u *.html ../
 mv [A-Z]* /tmp/u
 rm *~ deletes all emacs files
-mkdir -p file{1,2}  
+mkdir -p file{1,2}
+ls -apm | sort -d  
