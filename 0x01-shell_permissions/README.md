@@ -11,4 +11,5 @@ Task 7; chmod a+x hello gives permissions to read and execute the file hello the
 Task 8; chmod 007 hello James Bond
 Task 9; chmod 753 hello John Doe
 Task 10; chmod reference=olleh hello mirror permissions
-Task 11; chmod ugo+X * makes executable for user and group all subdirectories in the working directory 
+Task 11; chmod ugo+X * makes executable to the user, group and others all subdirectories in the working directory.
+Task 12; mkdir -m 751 my_dir creates a new directory my_dir with 751 permissions
