@@ -13,4 +13,5 @@ ls -la .. List all files (even ones with names beginning with a period character
 type file 'List the type of file.'
 ln -s /bin/ls __ls__ creating a symbolic link
 cp -u *.html ../
-mv [A-Z]* /tmp/u 
+mv [A-Z]* /tmp/u
+rm *~ deletes all emacs files 
