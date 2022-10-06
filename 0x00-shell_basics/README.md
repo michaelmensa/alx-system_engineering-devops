@@ -8,4 +8,5 @@ mkdir -p /tmp/my_first_directory/:
 mv /pathname/file /pathname1/pathname2
 rm /pathname1/pathname2/file1
 rmdir /pathname1/pathname2/
-cd .. changes the current working directory to the previous one. 
+cd .. changes the current working directory to the previous one.
+ls -la .. List all files (even ones with names beginning with a period character, which are normally hidden) in the parent of the working directory in long format 
