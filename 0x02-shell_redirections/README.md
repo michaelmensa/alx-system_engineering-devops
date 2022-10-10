@@ -9,4 +9,5 @@ Task 5; head /etc/passwd- display the first 10 lines of /etc/passwd
 Task 6; head -n 3 iacta | tail -n 1 displays the third line of the file, iacta without using the command sed.
 Task 7; echo 'Best School' >\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
 Task 8; ls -la >ls_cwd_content
-Task 9; tail -n 1 iacta >> iacta 
+Task 9; tail -n 1 iacta >> iacta
+Task 10; find . -type f -name "*.js" -delete 
