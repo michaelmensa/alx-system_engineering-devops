@@ -17,4 +17,9 @@ Task 13; sort | uniq -u
 Task 14; grep -i "root" /etc/passwd find that word
 Task 15; grep -c -i "bin" /etc/passwd count that word
 Task 16; grep -i "root" -A 3 /etc/passwd what's next?
-Task 17; grep -i -v "bin" /etc/passwd 
+Task 17; grep -i -v "bin" /etc/passwd hide that word
+Task 18; grep -i "^[a-z]" /etc/ssh/sshd_config letteronly
+Task 19; tr "A" "Z" | tr "c" "e"
+Task 20; tr -d "cC"
+Task 21; rev means reverse
+Task 22; cut -d ':' -f 1,6 /etc/passwd | sort
