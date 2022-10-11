@@ -10,4 +10,5 @@ Task 6; head -n 3 iacta | tail -n 1 displays the third line of the file, iacta w
 Task 7; echo 'Best School' >\*\\'"Best School"\'\\*$\?\*\*\*\*\*:)
 Task 8; ls -la >ls_cwd_content
 Task 9; tail -n 1 iacta >> iacta
-Task 10; find . -type f -name "*.js" -delete 
+Task 10; find . -type f -name "*.js" -delete
+Task 11; find . -type d -not -name '.' | wc -l 
