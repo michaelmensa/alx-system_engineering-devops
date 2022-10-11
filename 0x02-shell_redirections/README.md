@@ -12,4 +12,6 @@ Task 8; ls -la >ls_cwd_content
 Task 9; tail -n 1 iacta >> iacta
 Task 10; find . -type f -name "*.js" -delete
 Task 11; find . -type d -not -name '.' | wc -l
-Task 12; ls -t1 | head -n 1 
+Task 12; ls -t1 | head -n 1
+Task 13; sort | uniq -u
+Task 14; grep -i "root" /etc/passwd find that word 
