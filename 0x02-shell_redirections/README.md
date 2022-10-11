@@ -15,4 +15,6 @@ Task 11; find . -type d -not -name '.' | wc -l
 Task 12; ls -t1 | head -n 1
 Task 13; sort | uniq -u
 Task 14; grep -i "root" /etc/passwd find that word
-Task 15; grep -c -i "bin" /etc/passwd count that word 
+Task 15; grep -c -i "bin" /etc/passwd count that word
+Task 16; grep -i "root" -A 3 /etc/passwd what's next?
+Task 17; grep -i -v "bin" /etc/passwd 
