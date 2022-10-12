@@ -22,7 +22,7 @@ set
 BEST="School"
 
 7; #!/bin/bash
-export ALX="Betty"
+export BEST="School"
 
 8; #!/bin/bash
 echo $(($TRUEKNOWLEDGE + 128))
