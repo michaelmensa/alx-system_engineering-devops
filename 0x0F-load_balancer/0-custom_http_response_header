@@ -21,5 +21,9 @@ echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
 redirected_string="server_name _;\n\tadd_header X-Served-By \$hostname;\n\trewrite ^\/redirect_me https:\/\/https:\/\/moz.com\/learn\/seo\/redirection permanent;"
 sudo sed -i "s/server_name_;/$redirected_string/" /etc/nginx/sites-enabled/default
 
+#cmd for configure redirect for 404 error page
+not_found_string="listen 80 default_server;\n\terror_page 404 \/404.html;\n\tlocation = \/404.html {\n\t\troot \/var\/www\/html;\n\t\tinternal;\n\t}"
+sudo sed -i "s/listen 80 default_server;/$not_found_string/" /etc/nginx/sites-enabled/default
+
 #restart the web server after settings update
 sudo service nginx start
