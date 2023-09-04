@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+# this script installs nginx
+sudo apt-get update
+sudo apt-get -y install nginx
+
+#configure firewall to allow request through port 80
+sudo ufw allow 'Nginx HTTP'
+
+sudo mkdir -p /var/www/html
+
+#change permissions to allow easy file creation
+sudo chmod -R 755 /var/www
+
+#create index page
+echo 'Hello World!' | sudo tee /var/www/html/index.html
+
+#create a webpage for error 404
+echo "Ceci n'est pas une page" | sudo tee /var/www/html/404.html
+
+# cmd to configure redirect for a single page(/redirect_me) add header to display hostname
+redirected_string="server_name _;\n\tadd_header X-Served-By \$hostname;\n\trewrite ^\/redirect_me https:\/\/https:\/\/moz.com\/learn\/seo\/redirection permanent;"
+sudo sed -i "s/server_name_;/$redirected_string/" /etc/nginx/sites-enabled/default
+
+#restart the web server after settings update
+sudo service nginx start
