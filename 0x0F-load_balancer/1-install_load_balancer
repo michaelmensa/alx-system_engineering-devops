@@ -14,7 +14,7 @@ frontend alxmichael-frontend
 backend alxmichael-backend
         balance roundrobin
         server 163985-web-01 100.25.38.204:80 check
-        server 163985-web-02 54.84.172.189:80 check
+        server 163985-web-02 54.237.117.213:80 check
 "
 echo "$server_config" | sudo tee -a /etc/haproxy/haproxy.cfg
 
