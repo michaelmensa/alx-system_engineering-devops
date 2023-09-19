@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# script to check in with new user passed as argument with whoami
+if [ $# -ne 1 ]
+then
+    echo "Usage: $0 <username>"
+    exit 1
+fi
+
+username="$1"
+sudo -u "$username" whoami
