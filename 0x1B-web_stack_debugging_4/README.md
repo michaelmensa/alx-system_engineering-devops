@@ -1,4 +1,3 @@
-Here is the provided text rewritten in markup form:
 
 # Web-stack Debugging_4
 
